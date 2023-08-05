@@ -40,20 +40,7 @@ export function Feedback(){
                         </p>
                     </div>
 
-                    <div className="card">
-                        <div className="title">
-                            <img src={perfil} alt="" />
-                            <div>
-                                <h2>Afonso</h2>
-                                <span>Administrador</span>                    
-                            </div>
-                        </div>
-                        <p>
-                            "Não posso deixar de elogiar. A comida era incrível e o serviço foi impecável.
-                             Definitivamente voltarei novamente."
-                        </p>
-                    </div>
-                
+                   
                 </div>
             </div>
         </Container>

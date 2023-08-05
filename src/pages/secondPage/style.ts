@@ -4,6 +4,7 @@ export const Container = styled.div`
     display:flex ;
     flex-direction:row ;
     align-items:center ;
+    margin-bottom:3rem ;
     
     img{
         width:42rem ;
@@ -30,6 +31,7 @@ export const Container = styled.div`
                 border:1px solid var(--orange-color) ;
                 cursor: pointer;
                 font-size:20px ;
+                padding:10px 20px ;
                 transition: 0.2s ;
                 :hover{
                     background-color:var(--white-color) ;
