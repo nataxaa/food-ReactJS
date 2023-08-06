@@ -6,7 +6,7 @@ export function Header(){
         <Container>
             <img src={imagem} alt="Imagem de um logo."/>
             <ul>
-                <a href="">Home</a>
+                <a href="/">Home</a>
                 <a href="#delivery">Delivery</a>
                 <a href="#menu">Cardápio</a>
                 <a href="#contato">Contato</a>
