@@ -6,11 +6,11 @@ export const Container = styled.div`
     justify-content:center ;
     gap:30px;
     margin-top:4rem ;
-    margin-bottom:3rem ;
+    margin-bottom:8rem ;
     
     div.items-home{
-        display:flex ;
-        align-items: center;
+        display:grid ;
+        grid-template-columns: 1fr 1fr;
     }
 
     div.text-home{
@@ -63,13 +63,16 @@ export const Container = styled.div`
 
     .layer{  
         width:32rem ;
+        position:absolute;
+        top: 0;
+  left: 0;
     }
 
     img.first{
-        position:absolute ;
-        top:12.5rem ;
-        right:14rem ;
         width:33rem ;
+        position:absolute;
+        top: 0;
+  left: 0;
     }
 
 `

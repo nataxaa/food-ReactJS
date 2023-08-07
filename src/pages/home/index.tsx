@@ -17,7 +17,7 @@ export function Home(){
                     <button className="now">PEDIR AGORA</button>
                 </div>
             </div>
-            <div>
+            <div style={{position:'relative'}}>
                 <img className="layer" src={layer} alt="" />
                 <img className="first" src={imghome} alt="" />
             </div>
